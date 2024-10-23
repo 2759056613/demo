@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './组件状态.jsx'
+import App from './数组和对象操作.jsx'
 //import './index.css'
 
 createRoot(document.getElementById('root')).render(
