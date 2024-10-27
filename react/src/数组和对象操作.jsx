@@ -1,25 +1,19 @@
 import { useState } from 'react'
-import { useImmer } from 'use-immer'
+//import { useImmer } from 'use-immer'
+function computer(n) {
+  console.log('www')
+  return n + 1 + 1 + 1
+}
 function App() {
-  let [obj, setobj] = useImmer({
-    name: '111',
-    age: 11,
-    hd: {
-      admin: '111',
-    },
-  })
+  let [count, setcount] = useState(() => computer(0))
   const handleClick = () => {
-    setobj((draft) => {
-      //直接更改参数
-      draft.hd.admin = 'www'
-    })
+    setcount(count + 1)
   }
-
   return (
     <>
       <button onClick={handleClick}>霜鸡</button>
       <div> hello App</div>
-      <div>{JSON.stringify(obj)}</div>
+      <div>{JSON.stringify(count)}</div>
     </>
   )
 }

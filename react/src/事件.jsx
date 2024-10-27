@@ -6,6 +6,7 @@ function App() {
       console.log(num)
     }
   }
+  //传参   常用
   const handleClick2 = (e, num) => {
     console.log(num, e.nativeEvent)
   }

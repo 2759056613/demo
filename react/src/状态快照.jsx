@@ -10,6 +10,7 @@ function App() {
     // setCount(count + 1)0
     // setCount(count + 1)0
     //快照为0
+    log
     setCount((c) => {
       console.log(c)
       return c + 1
