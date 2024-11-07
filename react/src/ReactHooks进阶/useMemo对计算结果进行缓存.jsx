@@ -8,7 +8,7 @@ function App() {
   const [msg, setMsg] = useState('hello react')
   //计算变量
   // const list = [msg.toLocaleLowerCase(), msg.toLocaleUpperCase()]
-  //使用memo记忆缓存（解决引用类型数据对前后两次渲染内存不同判断错误的问题）
+  //使用memo记忆缓存（解决引用类型数据对前后两次渲染值相同但是内存不同判断错误的问题）
   //只有依赖项发生改变时值才会发生改变
   const list = useMemo(
     () => [msg.toLocaleLowerCase(), msg.toLocaleUpperCase()],

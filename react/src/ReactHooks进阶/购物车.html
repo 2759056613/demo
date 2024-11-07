@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .card {
+      display: flex;
+      width: 900px;
+      height: 450px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .card .item{
+     border-radius: 20%;
+     border: 5px dotted gray;
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+    .card .item h3 {
+      position: absolute;
+      font-size: 30px;
+      top: -5px;
+      left: 20px;
+      text-align: center;
+    }
+     .card .item p,.count {
+       position: absolute;
+       font-size: 20px;
+      left: 20px;
+       font-size: 25px;
+     }
+     .card .item p {
+        top: 50px;
+     }
+      .card .item .count {
+        top: 100px;
+     }
+     .card .item .count span {
+      font-weight: 900;
+       font-size: 30px;
+     }
+     .card .item button {
+      border-radius: 10px;
+      background-color: red;
+      position: absolute;
+      top: 150px;
+      left: 20px;
+      width: 150px;
+      height: 40px;
+      font-size: 20px;
+      color: #fff;
+     }
+      .card .item .active {
+        background-color: skyblue;
+        color: black;
+      }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="item">
+       <h3>西瓜</h3>
+       <p>单价：5</p>
+       <div class="count">
+        数量：<span>-</span> 2 <span>+</span>
+       </div>
+       <button >添加购物车</button>
+    </div>
+    <div class="item">
+      <h3>西瓜</h3>
+      <p>单价：5</p>
+      <div class="count">
+        数量：<span>-</span> 2 <span>+</span>
+      </div>
+      <button class="active">取消购买</button>
+    </div>
+    <div class="item">
+      <h3>西瓜</h3>
+      <p>单价：5</p>
+      <div class="count">
+        数量：<span>-</span> 2 <span>+</span>
+      </div>
+      <button>添加购物车</button>
+    </div>
+    <div class="item">
+      <h3>西瓜</h3>
+      <p>单价：5</p>
+      <div class="count">
+        数量：<span>-</span> 2 <span>+</span>
+      </div>
+      <button>添加购物车</button>
+    </div>
+    <div class="item">
+      <h3>西瓜</h3>
+      <p>单价：5</p>
+      <div class="count">
+        数量：<span>-</span> 2 <span>+</span>
+      </div>
+      <button>添加购物车</button>
+    </div>
+    <div class="item">
+      <h3>西瓜</h3>
+      <p>单价：5</p>
+      <div class="count">
+        数量：<span>-</span> 2 <span>+</span>
+      </div>
+      <button>添加购物车</button>
+    </div>
+    <div class="item">
+      <h3>西瓜</h3>
+      <p>单价：5</p>
+      <div class="count">
+        数量：<span>-</span> 2 <span>+</span>
+      </div>
+      <button>添加购物车</button>
+    </div>
+    <div class="item">
+      <h3>西瓜</h3>
+      <p>单价：5</p>
+      <div class="count">
+        数量：<span>-</span> 2 <span>+</span>
+      </div>
+      <button>添加购物车</button>
+    </div>
+
+  </div>
+</body>
+</html>

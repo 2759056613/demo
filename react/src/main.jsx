@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './startTransition.jsx'
+import App from './手写antd全局提示组件.jsx'
 //import './index.css'
 
 createRoot(document.getElementById('root')).render(

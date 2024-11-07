@@ -1,0 +1,64 @@
+ .card {
+   display: flex;
+   width: 900px;
+   height: 450px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+ .card .item {
+   border-radius: 20%;
+   border: 5px dotted gray;
+   position: relative;
+   width: 200px;
+   height: 200px;
+ }
+
+ .card .item h3 {
+   position: absolute;
+   font-size: 30px;
+   top: -5px;
+   left: 20px;
+   text-align: center;
+ }
+
+ .card .item p,
+ .count {
+   position: absolute;
+   font-size: 20px;
+   left: 20px;
+   font-size: 25px;
+ }
+
+ .card .item p {
+   top: 50px;
+ }
+
+ .card .item .count {
+   top: 100px;
+ }
+
+ .card .item .count span {
+   font-weight: 900;
+   font-size: 30px;
+ }
+
+ .card .item button {
+   border-radius: 10px;
+   background-color: red;
+   position: absolute;
+   top: 150px;
+   left: 20px;
+   width: 150px;
+   height: 40px;
+   font-size: 20px;
+   color: #fff;
+ }
+
+ .card .item .active {
+   background-color: skyblue;
+   color: black;
+ }
+ .card .num {
+  font-size: 30px;
+ }
