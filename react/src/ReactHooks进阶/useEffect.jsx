@@ -7,12 +7,12 @@ function App() {
   //状态更新函数重新渲染jsx之后都会重新执行一次
   //在当前函数组件作用域的最后时机触发 是异步的
   useEffect(() => {
-    console.log(count)
+    console.log(count + 'one')
   })
   const handleClick = () => {
     setcount(count + 1)
   }
-  console.log('www')
+  // console.log('www')
   console.log(count)
 
   return (

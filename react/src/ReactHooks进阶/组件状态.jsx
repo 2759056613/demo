@@ -21,7 +21,7 @@ function App() {
   let [count1, setCount1] = useState(1)
   let [count2, setCount2] = useState(2)
   //多状态的记忆方式是数组对
-  //不要在逻辑中调用useState，会改变内部
+  //不要在逻辑中调用useState，会改变react内部执行逻辑
 
   const handleClick = () => {
     setCount(count + 1)
